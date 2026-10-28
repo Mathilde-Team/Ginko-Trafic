@@ -1,5 +1,9 @@
 # Journal des versions
 
+## [Non publié]
+
+- README : nouvelle section « Données et licences » (open data Ginko sous ODbL 1.0, mention de la provenance obligatoire) (#26).
+
 ## [0.1.1] — 22/10/2026
 
 - Liens et manifest corrigés après le renommage de l'organisation en

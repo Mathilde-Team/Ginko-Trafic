@@ -126,6 +126,28 @@ d'info-trafic plus d'une minute.
   (Keolis Besançon Mobilités / Grand Besançon Métropole) : mentionnez la
   provenance si vous rediffusez.
 
+## Données et licences
+
+- **Licence des données** : les données ouvertes du réseau Ginko (passages
+  en temps réel, infos-trafic, lignes, arrêts) sont publiées gratuitement
+  sous [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/) par Ginko
+  (Keolis Besançon Mobilités, pour Grand Besançon Métropole). Utiliser l'API
+  vaut acceptation de la licence ([conditions d'utilisation de l'API
+  Ginko](https://api.ginko.voyage/), section « Licence d'utilisation » ;
+  [OpenData Besançon](https://data.grandbesancon.fr/opendata/dataset/InfosTraficGinko)).
+- **Attribution** : toute utilisation publique doit mentionner la provenance
+  des données, par exemple « Données : open data du réseau Ginko (Keolis
+  Besançon Mobilités / Grand Besançon Métropole), licence ODbL —
+  https://api.ginko.voyage ».
+- **ODbL** : si vous rediffusez une base dérivée, par exemple un export de
+  l'historique Home Assistant, il faut citer la licence, conserver les
+  mentions d'origine et partager la base dans les mêmes conditions.
+- **Accès à l'API** : la clé est gratuite (voir
+  [Prérequis : clé API](#prérequis--clé-api)). Elle sert à Ginko pour ses
+  statistiques d'usage et pour gérer les droits d'accès.
+- **Code** : licence [MIT](LICENSE) (intégration Home Assistant, exception
+  SOCLE §1).
+
 ## Développement
 
 Socle qualité Mathilde-Team : CI (ruff, yamllint, pytest, hassfest, HACS),
